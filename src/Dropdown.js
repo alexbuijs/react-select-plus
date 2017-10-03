@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 
 const Dropdown = createClass({
   propTypes: {
-    children: PropTypes.node,
+    children: PropTypes.any,
   },
   render () {
     // This component adds no markup
